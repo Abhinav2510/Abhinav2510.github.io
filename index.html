@@ -113,20 +113,20 @@ html,body {
 								<li><a href="#Integration"><span class="fa fa-flask"></span>
 										Apache karaf</a></li>
 							</ul></li>
-						<li class="dropdown"><a href="#frameworks"
+						<li class="dropdown"><a href="#web-frameworks"
 							class="dropdown-toggle" data-toggle="dropdown" role="button"
 							aria-haspopup="true" aria-expanded="false"><span
 								class="glyphicon glyphicon-globe"></span> Web Frameworks <span
 								class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#springMVC"> <span
+								<li><a href="#web-frameworks"> <span
 										class="glyphicon glyphicon-leaf"></span> &nbsp;Spring MVC
 								</a></li>
-								<li><a href="#sparkJava"><span class="fa fa-globe"></span> Sparkjava</a></li>
+								<li><a href="#web-frameworks"><span class="fa fa-globe"></span> Sparkjava</a></li>
 
 								<li role="separator" class="divider"></li>
-								<li class="dropdown-header">PHP</li>
-								<li><a href="#"><span class="fa fa-fire"></span> CodeIgniter</a></li>
+								<li class="dropdown-header">Node.js</li>
+								<li><a href="#web-frameworks"><span class="fa fa-fire"></span> Node.js/MEAN</a></li>
 							</ul></li>
 						<li class="dropdown"><a href="#orm" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -263,12 +263,13 @@ html,body {
 									<b><span class="glyphicon glyphicon-tasks"></span>
 										Platforms</b>
 								</h3>
-								<p>Worked on various platform including
+								<p>
 								<ul class="lead">
 									<li>Tomcat
 									<li>JBoss EAP
 									<li>WebSphere
 									<li>JBoss Fuse
+									<li>JBoss ActiveMQ
 								</ul>
 								</p>
 
@@ -397,8 +398,86 @@ html,body {
 
 		</div>
 		<!-- /.content-section-b -->
+		
+		
+		<div class="content-section-a">
+			<a name="web-frameworks"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-sm-6">
+						<hr class="section-heading-spacer">
+						<div class="clearfix"></div>
+						<h2 class="section-heading">Web frameworks</h2>
+						<p class="lead">Worked on various enterprize level Web frameworks</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-6">
+						<div class="card lead">
+							<div style="padding: 2px 16px;">
+								<h3>
+									<b><span class="glyphicon glyphicon-leaf"> Spring MVC</b>
+								</h3>
+								<p>
+								<ul class="lead">
+									<li>XML & Java configurations
+									<li>Valiation API
+									<li>Rest webservices
+									<li>Spring security
+									<li>i18n
+								</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="card lead">
+							<div style="padding: 2px 16px;">
+								<h3>
+									<b><span class="glyphicon glyphicon-globe"></span> Sparkjava</b>
+								</h3>
+								<p>
+								<ul class="lead">
+									<li>REST framework
+									<li>JWT authentication
+									<li>Self contained Jetty server
+									<li>Static file serving
+									<li>Java8
+								</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="card lead">
+							<div style="padding: 2px 16px;">
+								<h3>
+									<b><span class="glyphicon glyphicon-tasks"></span>
+										Node.js/MEAN stack</b>
+								</h3>
+								<p>
+								<ul class="lead">
+									<li>Node.js
+									<li>Express
+									<li>AngularJS
+									<li>MySQL with mongoose
+									<li>REST APIs
+								</ul>
+								</p>
 
-<div class="content-section-a">
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- /.container -->
+
+		</div>
+		<!-- /.content-section-a -->
+
+<div class="content-section-b">
 			<a name="about"></a>
 			<div class="container">
 				<div class="row">
@@ -427,7 +506,7 @@ html,body {
 			<!-- /.container -->
 
 		</div>
-		<!-- /.content-section-a -->
+		<!-- /.content-section-b -->
 
 
 
@@ -506,6 +585,9 @@ html,body {
 	function showTechie(){
 		document.getElementById("firstLoad").style.display='none';
 		document.getElementById("technical").style.display='block';
-		}
+		};
+	function showAuthor(){
+	window.location.href="https://www.goodreads.com/author/show/15224474.Abhinav_Suryawanshi";
+	};
 </script>
 </html>
